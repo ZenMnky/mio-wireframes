@@ -111,7 +111,7 @@ form label, form input, form textarea {
     margin-top: 15px;
 }
 
-form button {
+button {
     margin-bottom: 20px;
 }
 
@@ -133,12 +133,25 @@ form button {
     margin: 15px;
     max-width: 200px;
 }
+
+.profileView{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.profileView em {
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 .relationshipCard img {
     width: 100%;
 }
 
 .profileImg {    
     width: 100%; 
+    max-width: 500px;
 }
 .cardContent {
     padding: 2px 16px;
