@@ -97,7 +97,7 @@ form label, form input, form textarea {
     margin: 50px;
 }
 
-.viewRelationships, #searchView {
+.articleView {
     border: 1px solid black;
     margin: 2.5% 10%
 }
@@ -111,10 +111,8 @@ form label, form input, form textarea {
     margin-top: 15px;
 }
 
-.addRelationship {
-    border: 1px solid black;
-    margin: 20px;
-    height: 90%;
+form button {
+    margin-bottom: 20px;
 }
 
 .relationshipGroup {
@@ -137,6 +135,10 @@ form label, form input, form textarea {
 }
 .relationshipCard img {
     width: 100%;
+}
+
+.profileImg {    
+    width: 100%; 
 }
 .cardContent {
     padding: 2px 16px;
