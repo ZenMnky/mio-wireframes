@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">
+        <div class='nav_logo'>
+            <h1>
+                <a href='/index.html'>
+                    Mio
+                </a>
+            </h1>
+        </div>
+
+        <ul class="nav_links">
+            <li><a href='/relationshipView.html'>View</a></li>
+            <li><a href='/addNew.html'>Add</a></li>
+            <li><a href='/searchRelationships.html'>Search</a></li>
+        </ul>    
+    </nav>
+
+    <main role="main">
+       <article id="addRelationship" class='addRelationship'>
+           <h3>Add Relationship</h3>
+           <form action="">
+               <label for="first_name"></label>
+                <input id="first_name" type="text" placeholder="first name">
+                
+                <label for="last_name"></label>
+               <input id="last_name" type="text" placeholder="last name">
+               
+               <label for="nickname"></label>
+               <input id="nickname" type="text" placeholder="nickname">
+               
+               <label for="image url"></label>
+               <input name="image url" type="text" placeholder='image url'>
+               
+               <select 
+                name="relationshipZone" 
+                id="selectRelationshipZone"
+                >
+                <option value="1">Zone 1</option>
+                <option value="2">Zone 2</option>
+                <option value="3">Zone 3</option>
+                <option value="4">Zone 4</option>
+                <option value="5">Zone 5</option>
+                </select>
+
+               <textarea name="" placeholder="admirable qualities"></textarea>
+               <textarea name="" placeholder="initial relationship notes"></textarea>
+               <button>Add</button>
+               <button>Cancel</button>
+           </form>
+       </article>
+    </main>
+    <footer role="content-info">
+        Footer
+    </footer>
+</body>
+</html>
