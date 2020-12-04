@@ -97,9 +97,18 @@ form label, form input, form textarea {
     margin: 50px;
 }
 
-.viewRelationships {
+.viewRelationships, #searchView {
     border: 1px solid black;
     margin: 2.5% 10%
+}
+#searchResults div.relationshipGroup {
+    background-color: rgb(233, 231, 231);
+    justify-content: center;
+}
+
+.sectionTitle {
+    border: 1px solid black;
+    margin-top: 15px;
 }
 
 .addRelationship {
